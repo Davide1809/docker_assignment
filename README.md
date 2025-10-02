@@ -50,6 +50,13 @@ docker build -t my-node-app .
 docker run -d -p 3000:3000 my-node-app
 
 ```
+## Screenshots
+
+- Application running at `http://localhost:3000`  
+  ![App Screenshot](./screenshots/localhost_3000.png)
+
+- API response at `http://localhost:3000/api/status`  
+  ![API Screenshot](./screenshots/localhost_3000_api_status.png)
 
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
